@@ -1,0 +1,128 @@
+@import url("painel.css");
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 591px;
+    border-radius: 10px;
+}
+
+.conteudo h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 0px;
+    height: 10%;
+}
+
+.nav_tabs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.tabs a {
+    padding: 10px;
+    margin: 0.5px;
+    margin-bottom: 0px;
+    background-color: whitesmoke;
+    border: groove;
+    border-bottom-style: none;
+    border-width: 3px;
+    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    flex-shrink: 0;
+    flex-basis: 170px;
+    width: 170px;
+    text-align: center;
+}
+
+.nav_tabs ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.content {
+    margin: 0px;
+    padding: 0px;
+    height: 60vh;
+    max-width: 591px;
+    background-color: #6b778d;
+}
+
+#content1 {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0px 0 10px 15px;
+    padding-top: 15px; 
+    font-weight: bold;
+}
+
+#content1 input {
+    margin: 0 0 10px 15px;
+    font-size: 14pt;
+    width: 200px;
+}
+
+#content1 button {
+    font-size: 14pt;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+table {
+    margin-left: 15px;
+    border-width: medium;
+}
+
+table td {
+    border-style: outset;
+    padding: 10px;
+}
+
+.titulolinha {
+    font-weight: bold;
+}
+
+.titulocoluna {
+    font-weight: bold;
+}
+
+#content2 {
+    display: none;
+}
+
+#content3 {
+    display: none;
+}
+
+#abageral {
+    margin-left: 0px;
+}
+
+
