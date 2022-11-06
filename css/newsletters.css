@@ -1,0 +1,78 @@
+@import url("painel.css");
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.newsletters {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14pt;
+    background-color: var(--color6);
+    border-radius: 5px;
+    width: 40vw;
+}
+
+.listagemnewsletters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 15px;
+}
+
+.botoesnewsletters {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 14pt;
+}
+
+.botoesnewsletters button {
+    font-size: 14pt;
+    width: 100px;
+}
+
+.novanewsletter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 15px 15px 15px;
+}
+
+.listagemnewsletters select {
+    width: 72%;
+}
+
+.novanewsletter input {
+    width: 70%;
+}
+
+.novanewsletter button {
+    font-size: 14pt;
+    width: 100px;
+}
+
+.busca input {
+    width: 70%;
+}
+
+.busca button {
+    font-size: 14pt;
+    width: 100px;    
+}
+ 
+
+
+
+
+
+
+

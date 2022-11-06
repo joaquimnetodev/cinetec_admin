@@ -1,0 +1,150 @@
+@import url("painel.css");
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientes {
+    width: 50%;
+    height: auto;
+}
+
+.busca {
+    width: 100%;
+}
+
+.nav_tabs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.tabs a {
+    padding: 10px;
+    margin: 0.5px;
+    margin-bottom: 0px;
+    background-color: var(--color4);
+    border: groove;
+    border-bottom-style: none;
+    border-width: 3px;
+    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color6);
+    flex-shrink: 0;
+    flex-basis: 170px;
+    width: 170px;
+    text-align: center;
+}
+
+.nav_tabs ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    font-size: 14pt;
+    border-radius: 0 5px 5px 5px;
+    background-color: var(--color6);
+    color: var(--color4);
+}
+
+#content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#content2 {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.novocliente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 15px 0 15px 0;
+}
+
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+.botoesformulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#content2 {
+    display: none;
+}
+
+#aba1 {
+    background-color: var(--color1);
+    margin-left: 0;
+}
+
+#listaclientes {
+    width: 392px;
+}
+
+.cadastroativo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
