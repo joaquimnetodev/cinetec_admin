@@ -1,0 +1,152 @@
+@import url("painel.css");
+
+:root {
+    --fonte-do-novo-filme: 12pt;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.filmes {
+    display: flex;
+    flex-direction: column;
+    width: 588px;
+    height: auto;
+    max-height: 590px;
+    background-color: var(--color6);
+}
+
+.abas {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    justify-items: center;
+    height: 39px;
+    margin-bottom: 0;
+    text-align: center;
+    width: 599px;
+    background-color: var(--color3);
+}
+.abas a {
+    display: flex;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color5);
+    background-color: var(--color4);
+    border-style: groove;
+    border-width: medium;
+    border-color: var(--color5);
+    border-radius: 10px 10px 0 0;
+    padding: 10px;   
+    flex-shrink: 0;
+    flex-basis: 170px;
+    text-align: center;
+}
+
+#aba1 {
+    background-color: var(--color1);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 600px;
+}
+
+.novofilme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color4);
+    font-weight: bold;
+    width: 100%;
+}
+
+#content1 form {
+    margin: 10px;
+    width: 508px;
+}
+
+.nome-sinopse {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nome-sinopse input {
+    margin: 0;
+    width: 500px;
+    font-size: var(--fonte-do-novo-filme);    
+}
+
+.nome-sinopse textarea {
+    margin: 5px 0 5px 0;
+    width: 502px;
+    font-size: var(--fonte-do-novo-filme);
+}
+
+.categoria-audio-faixaetaria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.categoria-audio-faixaetaria select {
+    width: 150px;
+    flex-wrap: nowrap;
+    font-size: var(--fonte-do-novo-filme);
+}
+
+#duracao input {
+    margin: 5px 0 5px 0;
+    width: 200px;
+    font-size: var(--fonte-do-novo-filme);
+}
+
+.elenco {
+    display: flex;
+    flex-direction: column;
+}
+
+.elenco input {
+    margin: 0 0 5px 0;
+    width: 500px;
+    font-size: var(--fonte-do-novo-filme);
+}
+
+.capadofilme input {
+    margin: 5px 0 5px 0;
+    font-size: var(--fonte-do-novo-filme);
+}
+
+.precos input {
+    font-size: var(--fonte-do-novo-filme);
+}
+
+.dados {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.dados button {
+    width: 200 px;
+    font-size: var(--fonte-do-novo-filme);
+}

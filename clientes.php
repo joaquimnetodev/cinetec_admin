@@ -14,7 +14,6 @@ include('./app/protect.php');
 
 <body>
     <nav class="painel-lateral">
-        <img class="menulogo" src="./img/logo.png">
         <?php include('cartao_usuario.php'); ?>
         <?php include('itens_menu_lateral.php'); ?>
     </nav>
@@ -59,16 +58,15 @@ include('./app/protect.php');
                 </div>
 
                 <div id="content2">
-                    <form class="novocliente">
+                    <form class="clienteexistente">
                         <p class="busca">
-                        <p>
                             <input type="text" placeholder="busca">
                             <button>Buscar</button>
                         </p>
                         <p>
                             <select id="listaclientes" multiple>
                                 <option>Fulano da Silva</option>
-                                <option>Fulano de Tal</option>    
+                                <option>Fulano de Tal</option>
                                 <option>Fulano do Ciclano</option>
                                 <option>Alfredo Godofredo</option>
                                 <option>Godofredo Alfredo</option>
@@ -101,7 +99,7 @@ include('./app/protect.php');
                             <input type="file">
                         </p>
                         <p class="cadastroativo">
-                            <input type="radio" name="ativo" value="1" checked/> Ativo
+                            <input type="radio" name="ativo" value="1" checked /> Ativo
                             <input type="radio" name="ativo" value="0"> Inativo
                         </p>
                         <p class="botoesformulario">

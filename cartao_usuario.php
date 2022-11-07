@@ -1,6 +1,7 @@
 <?php
 echo
-        '<div class="cartao-usuario">
+        '<img class="menulogo" src="./img/logo.png">
+        <div class="cartao-usuario">
         <img src="./img/user/semfoto.jpg">
         <p>Seja bem-vindo<br>';
 

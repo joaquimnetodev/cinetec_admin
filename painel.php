@@ -13,7 +13,6 @@ include('./app/protect.php');
 
 <body>
     <nav class="painel-lateral">
-        <img class="menulogo" src="./img/logo.png"> 
         <?php include('cartao_usuario.php'); ?>
         <?php include('itens_menu_lateral.php'); ?>
     </nav>

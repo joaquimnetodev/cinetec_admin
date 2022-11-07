@@ -1,7 +1,7 @@
 <?php
 echo ' 
 <ul class="menuslaterais">    
-<li><a href="">FILMES</a></li>
+<li><a href="filmes.php">FILMES</a></li>
     <li><a href="">SESSÕES</a></li>
     <li><a href="">PRODUTOS</a></li>
     <li><a href="clientes.php">CLIENTES</a></li>

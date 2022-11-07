@@ -8,22 +8,25 @@
 }
 
 .relatorio {
-    width: 70vw;
+    width: 590px;
+    height: auto;
+    max-height: 550px;
+    background-color: var(--color6);
+    border-radius: 0 0 10px 10px;
 }
 
 .nav_tabs {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     height: auto;
+    background-color: var(--color3);
 }
 
 .tabs {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: flex-end;
 }
 
 .tabs a {
@@ -32,7 +35,8 @@
     margin-bottom: 0px;
     background-color: var(--color4);
     border: groove;
-    border-bottom-style: none;
+    border-color: var(--color6);
+    border-bottom-style: hidden;
     border-width: 3px;
     border-radius: 10px 10px 0px 0px;
     cursor: pointer;
@@ -45,32 +49,30 @@
     text-align: center;
 }
 
-.nav_tabs ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    list-style: none;
-}
-
 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0px;
     padding: 0px;
-    height: 60vh;
-    width: 100%;
-    font-size: 14pt;
-    border-radius: 0 5px 5px 5px;
+    height: auto;
+    width: 590px;
+    font-size: 12pt;
+    border-radius: 0 0px 10px 10px;
     background-color: var(--color6);
     color: var(--color4);
 }
 
 #content1 {
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
+    width: 350px;
+    height: auto;
 }
 
-p {
+.conteudo p {
     margin: 0px 0 10px 15px;
     padding-top: 15px;
     font-weight: bold;
@@ -88,17 +90,23 @@ p {
     border-radius: 5px;
 }
 
+#content {
+    width: 590px;
+}
 table {
-    padding-top: 15px;
+    padding-top: 5px;
     margin: 0 15px 15px 15px;
     border-width: medium;
 }
 
 table td {
     border-style: outset;
-    padding: 10px;
+    padding: 5px;
 }
 
+table tr{
+    height: 30px;
+}
 .titulolinha {
     font-weight: bold;
 }
@@ -117,4 +125,41 @@ table td {
 
 #aba1 {
     background-color: var(--color1);
+    margin-left: 0;
+}
+
+#geral-col1 {
+    width: 180px;
+}
+
+#geral-col2 {
+    width: 100px;
+}
+
+#item-col1 {
+    width: 80px;
+    text-align: center;
+}
+
+#item-col2 {
+    width: 390px;
+}
+
+#item-col3 {
+    width: 100px;
+    text-align: center;
+}
+
+#filme-col1 {
+    width: 80px;
+    text-align: center;
+}
+
+#filme-col2 {
+    width: 390px;
+}
+
+#filme-col3 {
+    width: 100px;
+    text-align: center;
 }

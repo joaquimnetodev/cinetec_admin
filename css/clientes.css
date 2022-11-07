@@ -13,7 +13,7 @@
 }
 
 .busca {
-    width: 100%;
+    width: 405px;
 }
 
 .nav_tabs {
@@ -37,7 +37,8 @@
     margin-bottom: 0px;
     background-color: var(--color4);
     border: groove;
-    border-bottom-style: none;
+    border-color: var(--color6);
+    border-bottom-style: hidden;
     border-width: 3px;
     border-radius: 10px 10px 0px 0px;
     cursor: pointer;
@@ -140,7 +141,7 @@ input {
 }
 
 #listaclientes {
-    width: 392px;
+    width: 405px;
 }
 
 .cadastroativo {
